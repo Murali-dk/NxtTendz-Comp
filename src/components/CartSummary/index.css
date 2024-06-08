@@ -1,0 +1,32 @@
+.summary-con {
+  width: 250px;
+  font-family: 'Roboto';
+  align-self: flex-end;
+}
+
+.summ-heading {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.total {
+  color: #000000;
+}
+
+.summ-desc {
+  color: #616e7c;
+  margin-top: 0px;
+}
+
+.summ-btn {
+  background-color: #0b69ff;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: 0px;
+  border-radius: 10px;
+}
