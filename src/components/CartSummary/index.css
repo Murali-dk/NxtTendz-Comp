@@ -48,6 +48,11 @@
   margin-bottom: 10px;
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+  .payment-option {
+    font-size: 13px;
+  }
+}
 .disabled {
   opacity: 0.5;
 }
@@ -62,15 +67,31 @@
   cursor: pointer;
   height: 30px;
   width: 150px;
+  border-radius: 8px;
 }
 .successfully-orederd {
-  background-color: gold;
-  color: red;
-  padding: 12px;
+  background-color: green;
+  color: black;
+  padding: 30px;
+  font-size: 30px;
+  border: none;
+  font-family: "Bree Serif";
+  font-style: italic;
 }
 .total-item-in-cart {
   color: #000000;
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .confirm-btn {
+    width: 110px;
+  }
+  .total-item-in-cart {
+    font-size: 14px;
+  }
+  .successfully-orederd {
+    font-size: 22px;
+  }
 }

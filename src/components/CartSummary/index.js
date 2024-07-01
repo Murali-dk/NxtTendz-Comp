@@ -41,6 +41,7 @@ const CartSummary = () => {
               >
                 <ul className="payment-method">
                   <li>
+                    <input type="checkbox" checked={false} />
                     <button
                       disabled
                       className="payment-option disabled"
@@ -50,6 +51,7 @@ const CartSummary = () => {
                     </button>
                   </li>
                   <li>
+                    <input type="checkbox" checked={false} />
                     <button
                       disabled
                       className="payment-option disabled"
@@ -59,6 +61,7 @@ const CartSummary = () => {
                     </button>
                   </li>
                   <li>
+                    <input type="checkbox" checked={false} />
                     <button
                       disabled
                       className="payment-option disabled"
@@ -68,6 +71,7 @@ const CartSummary = () => {
                     </button>
                   </li>
                   <li>
+                    <input type="checkbox" checked={false} />
                     <button
                       disabled
                       className="payment-option disabled"
@@ -89,6 +93,7 @@ const CartSummary = () => {
                   </li>
                 </ul>
                 <Popup
+                  modal
                   trigger={
                     <button
                       disabled={!check}
@@ -98,10 +103,14 @@ const CartSummary = () => {
                       Confirm Order
                     </button>
                   }
+                  overlayStyle={overlayStyle}
                   position="bottom left"
                 >
-                  <div className="successfully-orederd">
-                    Your order has been placed successfully
+                  <div>
+                    <h1 className="successfully-orederd">
+                      {' '}
+                      Your order has been placed successfully
+                    </h1>
                   </div>
                 </Popup>
               </Popup>
